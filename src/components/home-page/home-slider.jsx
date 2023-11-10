@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomeSlider = () => {
   return (
-    <div> Conflict Example</div>
+    <div> Home Slider 3</div>
   )
 }
 
