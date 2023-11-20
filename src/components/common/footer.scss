@@ -1,0 +1,59 @@
+@import '../../style/variables';
+@import '../../style/mixins';
+
+.footer {
+    background-color: $bgColor1;
+    color: $textColor1 ;
+    a {
+        color: $textColor1;
+    }
+    .row {
+        padding: 3rem 3rem 10rem 3rem;
+        @media (max-width: 768px) {
+            gap: 2rem;
+        }
+        .section2 {
+            @media (min-width:768px) {
+             padding-left: 5rem;
+             text-wrap: nowrap;   
+            }
+        }
+        &>div {
+            @include flexColumn;
+            gap: 1rem;
+            .store {
+                display: flex;
+                gap: 1rem;
+                @media (max-width: 1200px) {
+                    flex-wrap: wrap;
+                    margin-bottom: 1rem;
+                }
+                div {
+                    display: flex;
+                    align-items: center;
+                    text-wrap: nowrap;
+                    gap: 1rem;
+                    background-color: $buttonBg;
+                    color: $buttonText;
+                    padding: .7rem 1rem;
+                    border-radius: 9px;
+                    -webkit-border-radius: 9px;
+                    -moz-border-radius: 9px;
+                    -ms-border-radius: 9px;
+                    -o-border-radius: 9px;
+                    svg {
+                        font-size: 2rem
+                    }
+}
+            }
+            .links {
+                @include flexColumn;
+                gap: 1rem;
+            }
+            .contact {
+                @include flexColumn;
+                gap: 1rem;
+            }
+        }
+    }
+}
