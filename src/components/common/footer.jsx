@@ -12,7 +12,7 @@ const Footer = () => {
                           <img src="/assets/img/logo-white.png" alt="prettierhomes" />
                       </a>
               </div>
-              <div className='slogan'>
+              <div className='slogan'>dasdasdasd
                 Our slogan, 'Unlocking Your Home's
                 Potential, Together,' reflects our dedication
                 to helping clients realize the full potential
