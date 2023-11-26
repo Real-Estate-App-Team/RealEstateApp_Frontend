@@ -1,7 +1,7 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter, useLocation } from 'react-router-dom';
 import Home from '../pages/Home';
 import UserLayout from '../layouts/user-layout';
-import About from '../pages/about_us';
+import AboutPage from '../pages/about-page';
 
 export const router = createBrowserRouter([
   {
@@ -14,10 +14,15 @@ export const router = createBrowserRouter([
       },
        {
         path:"about" ,
-        element: <About />
+        element: <AboutPage />
       }
       
     ],
     
   },
 ]);
+const AppRouter = () => {
+  return <RouterProvider router={router} />;
+};
+
+export default AppRouter;
