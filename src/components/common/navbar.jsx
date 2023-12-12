@@ -3,6 +3,7 @@ import { UserOutlined } from '@ant-design/icons'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom';
 
 function OffcanvasExample() {
   const expand = 'lg'; // Set the desired expand size
@@ -31,7 +32,7 @@ function OffcanvasExample() {
             <Nav className="justify-content-center flex-grow-1 pe-3">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#properties">Properties</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link as={Link} to="/about"> About</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
             <Nav className='ms-auto d-none d-lg-flex align-items-center'>

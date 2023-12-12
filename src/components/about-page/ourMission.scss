@@ -1,0 +1,64 @@
+.header{
+
+    margin-right: 150px;
+    color: #00000024;
+
+}
+.header2{
+
+    margin-right: 150px;
+    color: #00000024;
+
+}
+.ourMission{
+    div[class^="col"]{
+display: flex;
+flex-direction: column;
+justify-content: center;
+    }
+
+     p{
+        color: #000;
+        font-weight: 600;
+     }
+     h2{
+        font-size: 2rem;
+    
+     }
+     
+  
+}
+.contact{
+    background-color:rgba(137, 129, 124, 0.326);
+    color:rgb(89, 82, 82)        ;       ;
+    text-align: center;
+    padding:10px ;
+    border-radius: 25px;
+    border: 4px;
+    text-decoration:none;
+    border-left-width:  200px; /* Öğenin genişliği */
+    height: 100px; /* Öğenin yüksekliği */
+    
+
+}
+.contactus{
+
+   
+    color:rgb(89, 82, 82)        ;
+  
+    padding:10px ;
+    border-radius: 25px;
+    border: 4px;
+    text-decoration:none;
+    width: 100px; /* Öğenin genişliği */
+  height: 100px; /* Öğenin yüksekliği */
+  border: 2px solid rgb(173, 163, 163); /* Çizgi rengi ve kalınlığı */
+}
+.find{
+    background-color:rgba(255, 89, 0, 0.326);
+border-radius: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
